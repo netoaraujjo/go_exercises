@@ -41,6 +41,6 @@ func printResult(values []string) {
 		fmt.Printf("%s ", spaceconv.MToF(spaceconv.Meters(v)))
 		fmt.Printf("%s ", spaceconv.FToM(spaceconv.Foot(v)))
 		fmt.Printf("%s ", weightconv.KToL(weightconv.Kilo(v)))
-		fmt.Printf("%s\n", weightconv.Libra(weightconv.Libra(v)))
+		fmt.Printf("%s\n", weightconv.LToK(weightconv.Libra(v)))
 	}
 }
